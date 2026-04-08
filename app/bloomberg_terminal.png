@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:padding="24dp">
+
+    <!-- Top Spacer -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/app_font"
+        android:text="Welcome to The Data Engine"
+        android:textColor="#6F4D38"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Spacer -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <!-- Slide text -->
+
+    <!-- Right Arrow -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/app_font"
+        android:text="Slide to continue"
+        android:textColor="#6F4D38"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="→"
+        android:textSize="28sp"
+        android:fontFamily="@font/app_font"
+        android:textColor="#6F4D38"
+        android:layout_marginBottom="48dp" />
+
+</LinearLayout>
